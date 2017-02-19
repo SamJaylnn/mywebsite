@@ -59,14 +59,29 @@ a:hover, a:active {
     display: inline;
 }
 
-.mainHeader nav a:link, .mainHeader nav a:visitied {
+
+.mainHeader nav a:link {
     color: #FFF;
     display: inline-block;
     padding: 10px 25px;
-    /* come back here to assign height*/
 }
 
+
+
+
 .mainHeader nav a:hover, .mainHeader nav a:active,
-.mainHeader nav .active a:link, .mainHeader nav .active a:visitied {
+.mainHeader nav .active a:link{
     background-color: #CF5C3F;
+    color: #FFF;
+}
+
+
+.mainHeader nav a:visitied {
+    color: #FFF;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.mainHeader nav .active a:visitied {
+    
 }
