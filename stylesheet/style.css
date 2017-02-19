@@ -1,0 +1,72 @@
+/*
+    Theme Name: shuzhongchen website
+    Date: Feb 2017
+    Description: Basic HTML5/CSS3 layout built on a responsive framework
+    Version: 1.0
+    Author: Shuzhong Chen
+    Author URL: 
+*/
+
+body {
+    background-image: url{'img/bg.png'};
+    color: #000305;
+    font-size: 87.5%; /* Base font size is 14px */
+    font-family: Arial, 'Lucida Sans Unicode';
+    line-height: 1.5;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visitied {
+    
+}
+
+a:hover, a:active {
+    
+}
+
+.body {
+    margin: 0 auto;
+    width: 70%;
+    clear: both;
+    
+}
+
+.mainHeader img {
+    width: 10%;
+    height: auto;
+    margin: 2% 0;
+}
+
+.mainHeader nav {
+    background-color:  #666;
+    height: 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.mainHeader nav ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+    float: left;
+    display: inline;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visitied {
+    color: #FFF;
+    display: inline-block;
+    padding: 10px 25px;
+    /* come back here to assign height*/
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visitied {
+    background-color: #CF5C3F;
+}
