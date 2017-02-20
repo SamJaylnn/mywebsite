@@ -43,10 +43,27 @@ a:hover, a:active {
     
 }
 
-.mainHeader img {
-    width: 10%;
-    height: auto;
-    margin: 2% 0;
+
+
+.mainHeader .headContent .headName{
+    width: 100%;
+    font-size: 400%; /* Base font size is 14px */
+    font-family: Arial, 'Lucida Sans Unicode';
+    color: #666;
+    text-align: center;
+    margin-top: 10%;
+    line-height: 0;
+}
+
+.mainHeader .headContent .headPosition{
+    width: 100%;
+    font-size: 120%; /* Base font size is 14px */
+    font-family: Arial, 'Lucida Sans Unicode';
+    color: #666;
+    text-align: center;
+    line-height: 0;
+    margin-top: 2%;
+    margin-bottom: 8%;
 }
 
 .mainHeader nav {
@@ -111,8 +128,12 @@ a:hover, a:active {
     float: left;
 }
 
-h2 {
+.mainContent .content h2 {
     color: #CF5C3F;
+}
+
+.mainContent .content .welcome {
+    font-size: 200%;
 }
 
 .topcontent {
@@ -139,44 +160,18 @@ h2 {
     font-size: 90%;
 }
 
-.top-sidebar {
-    width: 21%;
+
+.subFooter {
+    width: 100%;
+    height: 90px;
     float: left;
-    background-color: #FFF;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    margin-left: 3%;
-    margin-top: 1.5%;
-    margin-bottom: 2%;
-    padding: 2% 3% /*padding: top -> right -> bottom-> left*/
+    background-color: #FFF;
+    margin-top: 2%;
 }
 
-.mid-sidebar {
-    width: 21%;
-    float: left;
-    background-color: #FFF;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    margin-left: 3%;
-    margin-top: 1%;
-    margin-bottom: 2%;
-    padding: 2% 3% 
-}
-
-.bottom-sidebar {
-    width: 21%;
-    float: left;
-    background-color: #FFF;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    margin-left: 3%;
-    margin-top: 1%;
-    margin-bottom: 2%;
-    padding: 2% 3%
-}
 
 .mainFooter {
     width: 100%;
@@ -186,18 +181,20 @@ h2 {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     background-color: #666;
-    margin-top: 2%;
 }
 
 .mainFooter p {
     color: #FFF;
     width: 92%;
-    margin: 0 auto;
+    margin: 1% auto;
+    text-align: center;
 }
 
-.mainFooter a {
-    color: #CF5C3F;
+.top-sidebar img{
+    width: 28%;
+    padding: 2% 0 0 2%;
 }
+
 
 @media only screen and (min-width: 150px) and (max-width: 600px)
 {
@@ -243,24 +240,6 @@ h2 {
         margin-bottom: 3%;
     }
     
-    .top-sidebar {
-        width: 90%;
-        margin-left: 0%;
-        padding: 2% 5% /*padding: top -> right -> bottom-> left*/
-    }
-    
-    .mid-sidebar {
-        width: 90%;
-        margin-left: 0%;
-        padding: 2% 5% /*padding: top -> right -> bottom-> left*/
-    }
-    
-    .bottom-sidebar {
-        width: 90%;
-        margin-left: 0%;
-        padding: 2% 5% /*padding: top -> right -> bottom-> left*/
-    }
-
     .mainFooter {
         height: 80px;
     }
