@@ -161,17 +161,6 @@ a:hover, a:active {
 }
 
 
-.subFooter {
-    width: 100%;
-    height: 90px;
-    float: left;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    background-color: #FFF;
-    margin-top: 2%;
-}
-
 
 .mainFooter {
     width: 100%;
@@ -201,6 +190,15 @@ a:hover, a:active {
     .body {
         width: 90%;
         font-size: 95%;
+    }
+    
+    .mainHeader .headContent .headName{
+    line-height: 1;
+    }
+    .mainHeader .headContent .headPosition{
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 10%;
     }
     
     .mainHeader nav {
